@@ -11,5 +11,7 @@ export default {
     alias: {
       "@workspace/core": resolve("dist/libs/core"),
     },
+    extensions: [".js"],
+    exportsFields: ["exports"],
   },
 };
